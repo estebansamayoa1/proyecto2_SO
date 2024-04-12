@@ -1,1 +1,3 @@
-# proyecto2_SO
+# Proyecto Sockets
+
+## Cómo funciona
