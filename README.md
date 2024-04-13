@@ -1,7 +1,7 @@
 # Proyecto Sockets
 
-## Nickolas Nolte Carnet 20200561
-## Esteban Samayoa Carnet 20200188
+### Nickolas Nolte Carnet 20200561
+### Esteban Samayoa Carnet 20200188
 
 ## Cómo funciona
 
