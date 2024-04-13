@@ -4,7 +4,7 @@
 
 Los scripts de Cliente.py y Servidor.py configuran un sistema básico de cliente-servidor usando sockets en Python. Este sistema permite que múltiples clientes envíen una solicitud a un servidor para obtener una lista de archivos en un directorio especificado. 
 
-### Cliente.py
+## Cliente.py
 Este script se conecta al servidor para realizar dos operaciones principales: enviar un nombre de usuario y una ruta de directorio, y recibir una lista de archivos del directorio especificado. Estos son los pasos que sigue:
 
 #### Argumentos del script:
@@ -21,7 +21,7 @@ Este proceso se repite n veces según lo especificado en los argumentos del scri
 #### Manejo de excepciones:
 Se manejan errores como el tiempo de espera excedido (socket.timeout) y otros errores generales para asegurar que el cliente se maneje adecuadamente ante fallos de conexión o errores durante la transmisión de datos.
 
-### Servidor.py
+## Servidor.py
 Este script se encarga de aceptar conexiones de múltiples clientes y responder a sus solicitudes:
 
 #### Inicio del servidor:
@@ -29,8 +29,8 @@ El servidor se inicia en la IP y el puerto especificados, espera conexiones entr
 
 #### Manejo de clientes:
 Cuando un nuevo cliente se conecta, el servidor recibe primero el nombre del usuario.
-Luego entra en un bucle donde espera recibir una ruta de directorio, procesa la solicitud usando la función list_files para obtener una lista de archivos en el directorio especificado, y envía esa lista al cliente.
-Si no se reciben más datos (indicando que el cliente ha cerrado la conexión), el servidor rompe el bucle y cierra la conexión.
+Luego entra en un loop donde espera recibir una ruta de directorio, procesa la solicitud usando la función list_files para obtener una lista de archivos en el directorio especificado, y envía esa lista al cliente.
+Si no se reciben más datos (indicando que el cliente ha cerrado la conexión), el servidor rompe el loop y cierra la conexión.
 
 #### Función list_files:
 Intenta listar los archivos en el directorio especificado y devuelve la lista.
