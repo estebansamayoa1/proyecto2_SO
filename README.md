@@ -1,5 +1,8 @@
 # Proyecto Sockets
 
+## Nickolas Nolte Carnet 20200561
+## Esteban Samayoa Carnet 20200188
+
 ## Cómo funciona
 
 Los scripts de Cliente.py y Servidor.py configuran un sistema básico de cliente-servidor usando sockets en Python. Este sistema permite que múltiples clientes envíen una solicitud a un servidor para obtener una lista de archivos en un directorio especificado. 
