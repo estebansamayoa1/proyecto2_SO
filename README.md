@@ -49,7 +49,7 @@ Este intercambio de información se realiza de forma segura y repetida mediante 
 1. Conectar 2 computadoras a una misma red local
 2. Desde una computadora correr el script `Servidor.py` y ajustar la IP
 3. Desde la otra computadora correr el script `Cliente.py` y seguir esta estructura en la línea de comandos: 
-bash```
+```
 python3 Cliente.py <dirección IP> <puerto> <path>
 ```
 
